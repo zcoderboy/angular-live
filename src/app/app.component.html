@@ -1,0 +1,5 @@
+<h1>Liste des prévisions</h1>
+
+  <div style="display: flex; justify-content: between;flex-direction: column;">
+      <app-prevision-detail *ngFor="let prevision of previsions" [prevision]="prevision"></app-prevision-detail>
+  </div>
